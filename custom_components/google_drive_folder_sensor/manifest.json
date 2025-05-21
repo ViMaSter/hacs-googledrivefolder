@@ -1,0 +1,14 @@
+{
+  "domain": "google_drive_folder_sensor",
+  "name": "Google Drive Folder Sensor",
+  "version": "0.1.0",
+  "after_dependencies": ["backup"],
+  "codeowners": ["@ViMaSter"],
+  "config_flow": true,
+  "dependencies": ["application_credentials"],
+  "documentation": "https://github.com/ViMaSter/hacs-googledrivefolder/blob/main/README.md",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "loggers": ["google_drive_folder_sensor"],
+  "requirements": ["python-google-drive-api==0.1.0"]
+}
