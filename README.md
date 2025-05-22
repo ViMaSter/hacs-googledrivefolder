@@ -2,7 +2,7 @@
 [HACS](https://www.hacs.xyz/) component that adds a sensor to Home Assistant that monitors the amount of files in a Google Drive folder.
 
 > [!NOTE]
-> Currently limited to the root folder of the Google Drive account. Also requires files and directories to have been created by the same client ID, that is used to authenticate with the Google Drive API.
+> Currently limited to the root folder of the Google Drive account.
 
 ## Installation
 1. Clone this repository
@@ -12,6 +12,8 @@
 ### Home Assistant
 1. Open `Settings`/`Devices & services`/`Add integration`
 2. Search for and select `Google Drive Folder Sensor`
+   > [!NOTE]
+   > During the next step, you will encounter the [unverified app screen](https://support.google.com/cloud/answer/7454865#unverified-app-screen), as you're using your own credentials and accessing all files in your Google Drive. ([more info](https://developers.google.com/identity/protocols/oauth2/production-readiness/restricted-scope-verification#exceptions))
 3. Follow the prompts to authenticate with your Google account
 4. Click `Submit`
 5. Open `Settings`/`Automations & scenes`/`Create automation`

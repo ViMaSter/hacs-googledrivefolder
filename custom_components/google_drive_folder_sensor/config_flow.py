@@ -19,7 +19,7 @@ from .const import DOMAIN
 DEFAULT_NAME = "Google Drive Folder Sensor"
 DRIVE_FOLDER_URL_PREFIX = "https://drive.google.com/drive/folders/"
 OAUTH2_SCOPES = [
-    "https://www.googleapis.com/auth/drive.file",
+    "https://www.googleapis.com/auth/drive",
 ]
 
 
